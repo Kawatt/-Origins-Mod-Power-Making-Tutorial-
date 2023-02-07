@@ -1,0 +1,67 @@
+site_name: Origins Quick Tutorial
+nav:
+    - Home: index.md
+    - Datapack Guides:
+        - Defining an Origin: guides/data/define_origin.md
+        - Defining a Power: guides/data/define_power.md
+        - Origin conditions in layers: guides/data/origin_conditions_in_layers.md
+    - Add-on Guides:
+        - Workspace Setup: guides/addon/workspace_setup.md
+        - Dependencies Explained: guides/addon/dependencies.md
+    - JSON:
+        - Badge JSON: json/badge.md
+        - Origin JSON: json/origin.md
+        - Origin Layer JSON: json/origin_layer.md
+        - Power JSON: json/power.md
+    - General Types:
+        - Badge Types: types/badge_types.md
+        - Data Types: types/data_types.md
+        - Power Types: types/power_types.md
+    - Action Types:
+        - Bi-entity Action Types: types/bientity_action_types.md
+        - Block Action Types: types/block_action_types.md
+        - Entity Action Types: types/entity_action_types.md
+        - Item Action Types: types/item_action_types.md
+        - Meta Action Types: types/meta_action_types.md
+    - Condition Types:
+        - Bi-entity Condition Types: types/bientity_condition_types.md
+        - Biome Condition Types: types/biome_condition_types.md
+        - Block Condition Types: types/block_condition_types.md
+        - Damage Condition Types: types/damage_condition_types.md
+        - Entity Condition Types: types/entity_condition_types.md
+        - Fluid Condition Types: types/fluid_condition_types.md
+        - Item Condition Types: types/item_condition_types.md
+        - Meta Condition Types: types/meta_condition_types.md
+    - Miscellaneous:
+        - Advancement Triggers: misc/advancement_triggers.md
+        - Base Contents: misc/base_contents.md
+        - Commands: misc/commands.md
+        - Item Modifiers: misc/item_modifiers.md
+        - Items: misc/items.md
+        - Predicates: misc/predicates.md
+    - Extras:
+        - Action Results: misc/extras/action_results.md
+        - Biome Categories: misc/extras/biome_categories.md
+        - Damage Source Names: misc/extras/damage_source_names.md
+        - Container Type: misc/extras/container_type.md
+        - Destruction Types: misc/extras/destruction_types.md
+        - Feature Renderers: misc/extras/feature_renderers.md
+        - Inventory Type: misc/extras/inventory_type.md
+        - Fluid Handling: misc/extras/fluid_handling.md
+        - Keybindings: misc/extras/keybindings.md
+        - Materials: misc/extras/materials.md
+        - Player Abilities: misc/extras/player_abilities.md
+        - Positioned Item Stack Slots: misc/extras/positioned_item_stack_slots.md
+        - Shape Types: misc/extras/shape_types.md
+        - Space: misc/extras/space.md
+        - Sprites: misc/extras/sprites.md
+        - Value Modifying Power Classes: misc/extras/value_modifying_power_classes.md
+
+extra_css:
+  - stylesheets/extra.css
+
+theme: readthedocs
+markdown_extensions:
+    - toc:
+        separator: "_"
+    - admonition
