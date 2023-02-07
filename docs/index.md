@@ -3,7 +3,7 @@ title: Home
 date: 2021-04-04
 ---
 
-# Welcome to the Origins documentation!
+# Really Quick Tutorial
 
 This page will hopefully contain all the information you need to make your own data packs for the Origins mod.
 
